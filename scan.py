@@ -32,17 +32,17 @@ while True:
         elif id == 4:
             nama = 'Elon Musk'
         elif id == 5:
-            nama = 'Ahmad Surya'
+            nama = 'Sesuai nama'
         elif id == 6:
-            nama = 'Reza auliya'
+            nama = 'Sesuai nama'
         elif id == 7:
-            nama = 'Daril Azkia'
+            nama = 'Sesuai nama'
         elif id == 8:
-            nama = 'Haekal Nuaim'
+            nama = 'Sesuai nama'
         elif id == 9:
-            nama = 'Ragadika Aziz Saputra'
+            nama = 'Sesuai nama'
         elif id == 10:
-            nama = 'Sofyan Ahmadi'
+            nama = 'Sesuai nama'
         else:
             nama = 'Tidak dikenal'
         cv2.putText(frame, f"{nama} ({round(conf, 2)})", (x, y - 10), cv2.FONT_HERSHEY_DUPLEX, 0.8, (0, 255, 0), 2)
@@ -53,4 +53,5 @@ while True:
         break
 
 video.release()
+
 cv2.destroyAllWindows()
